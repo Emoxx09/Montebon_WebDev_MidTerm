@@ -1,37 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Master</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <body onload="openProject(event, 'Default')"> 
+
+    <div class="tab">
+      <button class="tablinks" onclick="openProject(event, 'Poem')">Poem</button>
+      <button class="tablinks" onclick="openProject(event, 'Markup')">Markup</button>
+      <button class="tablinks" onclick="openProject(event, 'Calendar')">Calendar</button>
+      <button class="tablinks" onclick="openProject(event, 'Wishlist')">Wishlist</button>
+      <button class="tablinks" onclick="openProject(event, 'Registration')">Registration</button>
+    </div>
+
+    <div id="Default" class="tabcontent">
+      <iframe class="responsive-iframe" src="https://emoxx09.github.io/PlainStuff/blank.html"></iframe>
+    </div>
+
+    <div id="Poem" class="tabcontent">
+      <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/poem.html"></iframe>
+    </div>
+
+    <div id="Markup" class="tabcontent">
+      <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/markup.html"></iframe>
+    </div>
+
+    <div id="Calendar" class="tabcontent">
+      <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/calendar.html"></iframe>
+    </div>
+
+    <div id="Wishlist" class="tabcontent">
+      <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/wishlist.html"></iframe>
+    </div>
+
+    <div id="Registration" class="tabcontent">
+      <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/registration.html"></iframe>
+    </div>
+      
+    </body>
+</html>
 <link rel="stylesheet" href="masterdetail.css">
 
-<body onload="openProject(event, 'Default')"> 
 
-<div class="tab">
-  <button class="tablinks" onclick="openProject(event, 'Poem')">Poem</button>
-  <button class="tablinks" onclick="openProject(event, 'Markup')">Markup</button>
-  <button class="tablinks" onclick="openProject(event, 'Calendar')">Calendar</button>
-  <button class="tablinks" onclick="openProject(event, 'Wishlist')">Wishlist</button>
-  <button class="tablinks" onclick="openProject(event, 'Registration')">Registration</button>
-</div>
-
-<div id="Default" class="tabcontent">
-	<iframe class="responsive-iframe" src="https://emoxx09.github.io/PlainStuff/blank.html"></iframe>
-</div>
-
-<div id="Poem" class="tabcontent">
-  <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/poem.html"></iframe>
-</div>
-
-<div id="Markup" class="tabcontent">
-  <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/markup.html"></iframe>
-</div>
-
-<div id="Calendar" class="tabcontent">
-  <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/calendar.html"></iframe>
-</div>
-
-<div id="Wishlist" class="tabcontent">
-  <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/wishlist.html"></iframe>
-</div>
-
-<div id="Registration" class="tabcontent">
-  <iframe class="responsive-iframe" src="https://kmontebon.github.io/Montebon_WebDev_MidTerm/registration.html"></iframe>
-</div>
 
 <script src="masterdetail.js"></script>
