@@ -1,0 +1,90 @@
+body {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+th{
+	width:14.285714285714285714285714285714%;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+}
+
+#price1x, #amount1x{
+
+	font-size: large;
+	font-weight: 700;
+	text-align: right;
+
+}
+
+#title{
+	font-weight: 700;
+	font-size: large;
+}
+
+#title1{
+	font-weight: 750;
+}
+
+#qty{
+	width: 10%;
+	text-align: center;
+	padding: 15px;
+	font-weight: 750;
+	border: 1px solid grey;
+}
+
+#desc{
+	width: 40%;
+	text-align: center;
+	padding: 15px;
+	font-weight: 750;
+	border: 1px solid grey;
+}
+
+#price{
+	width: 20%;
+	text-align: center;
+	padding: 15px;
+	font-weight: 750;
+	border: 1px solid grey;
+}
+
+#amount{
+	width: 30%;
+	text-align: center;
+	padding: 15px;
+	font-weight: 750;
+	border: 1px solid grey;
+}
+
+
+#qty1{
+	width: 10%;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid grey;
+}
+
+#desc1{
+	width: 40%;
+	text-align: left;
+	padding: 15px;
+	border: 1px solid grey;
+}
+
+#price1{
+	width: 20%;
+	text-align: right;
+	padding: 15px;
+	border: 1px solid grey;
+}
+
+#amount1{
+	width: 30%;
+	text-align: right;
+	padding: 15px;
+	border: 1px solid grey;
+}
