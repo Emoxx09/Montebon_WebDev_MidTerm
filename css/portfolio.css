@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2F2F2F;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h2, h3, h4, p {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: white;
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row1 {
+  margin: 8px -16px;
+}
+
+.row1,
+.row1 > .column1 {
+  padding: 8px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
